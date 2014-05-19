@@ -51,5 +51,11 @@ Cost Benefits Analysis of Test Automation ( http://www.softwarequalitymethods.co
 
 * 固定費
  - ハードウェア (追加及びアップグレードも含む)
+ - ツールのライセンス
+ - ツールのサポートコスト
+ - ツールの接続ライセンス
+ - 自動テスト環境の設計と実装
+ - 
+
 
 ## 複数の試算式の紹介
