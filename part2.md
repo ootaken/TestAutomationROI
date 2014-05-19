@@ -13,7 +13,7 @@ ROI(t) = (手動テストを続けた場合の運用コスト(t) - 自動テス�
 まず、The Return on Investsment (ROI) of Test Automation ではROIの構成要素として下記を挙げています。
 
 hoge|test|moe
--|-|-
+----|----|---
 
 
 ### Cost Benefits Analysis of Test Automationで解説している要素
