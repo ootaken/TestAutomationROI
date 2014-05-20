@@ -8,9 +8,11 @@ ROI(t) = (手動テストを続けた場合の運用コスト(t) - 自動テス�
 
 ## テスト自動化のROIの試算式の構成要素
 
+まず、ROIの試算式の構成要素について、The Return on Investsment (ROI) of Test Automation と Cost Benefits Analysis of Test Automation の解説例を見ていきます。
+
 ### The Return on Investsment (ROI) of Test Automationで解説している構成要素
 
-まず、The Return on Investsment (ROI) of Test Automation ( http://www.arcondis.com/assets/files/pdf/publikationen/ROI%20of%20Test%20Automation.pdf ) ではROIの構成要素として下記を挙げています。
+The Return on Investsment (ROI) of Test Automation ( http://www.arcondis.com/assets/files/pdf/publikationen/ROI%20of%20Test%20Automation.pdf ) ではROIの構成要素として下記を挙げています。
 
 要素|説明|手運コ|自開コ|自運コ|直接|間接
 ----|----|------|------|------|----|----
@@ -98,3 +100,40 @@ Cost Benefits Analysis of Test Automation ( http://www.softwarequalitymethods.co
 第3回以降ではこのCost Benefits Analysis of Test Automationで挙げられている要素を使いながら、ROIを試算していきます。
 
 ## 複数の試算式の紹介
+
+ROIの試算式を構成する要素が分かりましたので、次は TABOK と Cost Benefits Analysis of Test Automation で解説している試算式のバリエーションを見ていきます。
+
+### TABOK の3つの試算式
+
+TABOK では Smple ROI Method, Efficiency ROI Method, Risk Reduction ROI Method という3つの試算式を紹介しています。
+
+3つ試算式は Test Automation ROI ( http://www.dijohn-ic.com/test_automation_roi.pdf ) という記事でオープンになっていますので、この記事を参考にしながら解説していきます。
+
+#### Simple ROI Method
+
+Simple ROI Method は以下の式で表されます。分母に自動テストの初期開発コストも含んでいます。
+
+ROI(t) = (手動テストを続けた場合の運用コスト(t) - 自動テストの初期開発コスト - 自動テストの運用コスト(t)) / (自動テストの初期開発コスト + 自動テストの運用コスト(t))
+
+Simple ROI Method はコストの構成要素を金額で積み上げていくもので、以下の特徴を持ったテスト自動化で有効です。
+
+* テスターの単価が明確になっている
+* 自動化の投資期間が長い
+
+Simple ROI Method のメリットとデメリットは以下の通りです。
+
+* メリット
+ - 金額ベースで積み上げていくためにROIの試算の内訳についてマネジメント層とコミュニケーションが取りやすい
+* デメリット
+ - テスターの単価が明確ではない場合、適用出来ない
+ - 余りに計算を単純化しすぎている
+  + 手動テストがそのままテスト設計やカバレッジを変更せずに自動テストに置き換わることは少ない
+  + 自動化に伴う欠陥対策コストの減少、手動テストのカバレッジ増加などを無視している
+
+#### Efficiency ROI Method
+
+#### Risk Reduction ROI Method
+
+## ROIとCBA
+
+### Cost Benefits Analysis of Test Automation の2つの試算式
