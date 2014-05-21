@@ -49,7 +49,7 @@ The Return on Investment (ROI) of Test Automation ( http://www.arcondis.com/asse
 
 ### Cost Benefits Analysis of Test Automationで解説している要素
 
-Cost Benefits Analysis of Test Automation ( http://www.softwarequalitymethods.com/papers/star99%20model%20paper.pdf )では、自動テストのコストの分類をテストの実行回数に依存しない固定費と実行回数の関数になるコストに分類しています。
+Cost Benefits Analysis of Test Automation ( http://www.softwarequalitymethods.com/papers/star99%20model%20paper.pdf )では、自動テストのコストの分類をテストの実行回数に依存しない固定費と実行回数の関数になるコストに分類しています。ただし、固定費と言っても，実行回数ではなくROIの評価対象期間である時間tには依存します。例えば、(一括もしくは減価償却費とする)自動テストツールの取得コストやライセンス更新コスト、サポートコストなどは時間tに依存します。
 
 * 固定費
  - ハードウェア (追加及びアップグレードも含む)
@@ -174,10 +174,10 @@ Cost Benefits Analysis of Test Automation では以下の2つの試算式を紹�
 1. ROI(t) = テスト自動化による利益 / テスト自動化のコスト
 2. ROI(t) = Δ手動テストに対するテスト自動化の利益 / Δ手動テスト対するテスト自動化のコスト = ΔB(t) / ΔC(t)
 
-Cost Benefits Analysis of Test Automation では1.を精確に試算するのは難しいとしており、2.をブレークダウンして解説しています。
+Cost Benefits Analysis of Test Automation では1.の他と比較のないテスト自動化単独の利益とコストを精確に試算するのは難しいとしており、2.をブレークダウンして解説しています。
 
-ΔB(t) = Σ(自動テストによる固定費の改善)(t) + Σ(N2回手動テストを実施した場合の変動費)(t) - Σ(N1回自動テストを実施した場合の変動費)
-ΔC(t) = Σ(自動テストよる固定費の増加)(t) + Σ(自動テストの開発費) - Σ(手動テストの開発費) + Σ(自動テストのメンテナンスコスト) (n1/N)
+ΔB(t) = Σ(自動テストによる固定費の改善)(t) + Σ(N2回手動テストを実施した場合の変動費)(t) - Σ(N1回自動テストを実施した場合の変動費)(t)
+ΔC(t) = Σ(自動テストによる固定費の増加)(t) + Σ(自動テストの開発費) - Σ(手動テストの開発費) + Σ(自動テストのメンテナンスコスト) (n1/N)
 n1 = 自動テストの実行回数
 n2 = 手動テストの実行回数
 N = メンテナンスが必要になるまでの自動テストの平均実行回数
