@@ -190,4 +190,4 @@ N = メンテナンスが必要になるまでの自動テストの平均実行�
 
 # 次回予告
 
-次回では Cost Benefits Analysis of Test Automation の下記の式の要素の詳細を解説するとともに、この式を使ってスモークテストとGUIテストの自動化のROIを実際に求めていきます。
+次回では Cost Benefits Analysis of Test Automation の上記の式の要素の詳細を解説するとともに、この式を使ってスモークテストとGUIテストの自動化のROIを実際に求めていきます。
