@@ -92,4 +92,4 @@ ROIの式を構成する要素として以下である事が分かりました�
 
 [^1]:ソフトウェアテスト標準用語集 日本語版 Version 2.2.J03 ( http://jstqb.jp/dl/JSTQB-glossary.V2.2.J03.pdf ) テストレベル（test level）： 系統的にまとめ、管理していくテストの活動のグループ。各テストレベルはプロジェクトの特定の責務と対応付けができる。テストレベルの例には、コンポーネントテスト、統合テスト、システムテスト、受け入れテストがある。[After TMap]
 
-[^2]:テストタイプ（test type）： コンポーネント又はシステムをテストするためのテスト活動をまとめたものであり、たとえば機能テスト、使用性テスト、回帰テストなどのように特定のテスト目的に焦点を当てている。テストタイプは一つ又は複数のテストレベル又はテストフェーズで行なわれる。[After TMap] 
+[^2]:ソフトウェアテスト標準用語集 日本語版 Version 2.2.J03 ( http://jstqb.jp/dl/JSTQB-glossary.V2.2.J03.pdf ) テストタイプ（test type）： コンポーネント又はシステムをテストするためのテスト活動をまとめたものであり、たとえば機能テスト、使用性テスト、回帰テストなどのように特定のテスト目的に焦点を当てている。テストタイプは一つ又は複数のテストレベル又はテストフェーズで行なわれる。[After TMap] 
